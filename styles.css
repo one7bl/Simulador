@@ -1,0 +1,98 @@
+body {
+    background-color: #c3e0d2d8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.calculadora{
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 30px;
+    background-color: #9dd1b7c7;
+}
+.pantalla {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.interfaz {
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+.notas,#notaDeseada{
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.porcentajes{
+    font-weight: bold;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+input[type="button"]{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover{
+    background-color: #1ae07d;
+}
+
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="reset"]:hover {
+    background-color: #df3327;
+
+}
+
+.brillo {
+    text-shadow: 0 0 30px #ffffff;
+}
+
+#notaR {
+    font-size: 18px;
+    margin-top: 1%;
+    position: center;
+    transition: text-shadow 0.5s ease;
+    box-shadow: 0 0 0px #00eeff;
+    width: 200px;
+}
+
+.notaCorte{
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+}
